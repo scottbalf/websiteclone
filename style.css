@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(33,33,33,255);
+    /* background-repeat: no-repeat;
+    background-attachment: fixed; */
+    background-size: 100% 100%;
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: bold;
+    color: white; */
+}
+
+/* .navOverlay {
+    height: 64px;
+    width: 100%
+} */
+
+.topnav{
+    background-color: rgb(50, 50, 50);
+    box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%);
+    /* padding: 4px, 16px; */
+    height: 64px;
+}
+
+.navbuttons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.cards{
+    /* background-color: rgb(41,41,41,255); */
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    margin: 0 auto;
+    /* margin-top: 12px; */
+    max-width: 1240px;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.card1{
+    /* display: flex;
+    justify-content: space-around; */
+    padding-left: 12px;
+    padding-right: 6px;
+    padding-top: 0px;
+    /* width: 100%;
+    max-width: 397.33px; */
+}
+
+.card2{
+    /* display: flex;
+    justify-content: space-around; */
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 0px;
+    /* width: 100%;
+    max-width: 397.33px; */
+}
+
+.card3{
+    /* display: flex;
+    justify-content: space-around; */
+    padding-left: 6px;
+    padding-right: 12px;
+    padding-top: 0px;
+    /* width: 100%;
+    max-width: 397.33px; */
+}
+
+h3{
+    color: white;
+    font-weight: bolder;
+    font-size: 1.25rem;
+    letter-spacing: .0125em;
+    line-height: 2rem;
+    margin: 0px;
+    /* padding: 16px; */
+    padding-bottom: 16px;
+}
+
+p{
+    margin: 0px;
+    color: rgba(191,191,191,255);
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.375rem;
+    letter-spacing: .0071428571em
+}
+
+/* .emphasized{
+    font-weight: bold;
+} */
+
+.card{
+    margin: 12px;
+    width: 33.3%;
+    background-color: rgb(41,41,41,255); 
+    padding: 16px;
+    margin: 12px;
+}
+
+.ready{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: #e0e0e0;
+    padding-top: 128px;
+}
+
+.bottomhalf{
+    height: 346px;
+    width: 100%;
+}
+
+.loginbut{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.bottomnav{
+    background-color: rgb(21,21,21);
+    height: 119px;
+}
+
+.bottomnavbuttons{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 12px;
+    padding-left: 46px;
+    padding-right: 46px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
